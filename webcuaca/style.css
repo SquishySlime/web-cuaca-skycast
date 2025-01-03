@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: url('gambarcuaca.jpeg') no-repeat center/cover;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #4a90e2;
+    color: white;
+    padding: 1rem 2rem;
+}
+
+header .brand{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-right: auto;
+    margin-left: 1%;
+}
+
+header .logo img {
+    height: 50px; 
+    width: auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background: #f39c12;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.fitur, .testimonials {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.fitur h2, .testimonials h2 {
+    margin-bottom: 20px;
+}
+
+.feature {
+    margin: 20px 0;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 25px; 
+    height: 25px; 
+    transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.5);
+}
